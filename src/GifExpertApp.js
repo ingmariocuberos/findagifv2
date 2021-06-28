@@ -14,7 +14,7 @@ export const GifExpertApp = () => {
 
     return (
         <div>            
-            <div className="header">   <h2 className="header-text">Find-A-Gif <img src={logo} alt="logo" className="logo-small"></img> <small className="small-text">by: Mario Cuberos</small></h2>
+            <div className="header">   <h2 className="header-text">Find-A-Gif <small className="small-text">by: Mario Cuberos</small></h2>
                 <AddCategory setCategories={setCategories}></AddCategory>
             </div>
             <hr/> 
